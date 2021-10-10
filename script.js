@@ -48,3 +48,17 @@ const createMessage = () => {
   return message;
 };
 
+
+const displayMessage = (message) => {
+  console.log("Crime generator!");
+  console.log("-----------------------");
+  console.log(message);
+};
+
+// running the program
+const init = () => {
+  const message = createMessage();
+  displayMessage(message);
+};
+
+init();
