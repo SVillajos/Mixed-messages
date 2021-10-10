@@ -34,8 +34,3 @@ const ChristieArr = [
     ]
   ];
 
-  // return random number
-  const numberBetweenZeroAnd = (num) => {
-      const randomNumber = Math.floor(Math.random() * num);
-      return randomNumber;
-  }
