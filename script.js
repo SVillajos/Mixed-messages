@@ -36,5 +36,9 @@ const toolArr =
     "shard of glass",
     "stapler"
   ]
-  
+
+// give a random position of the array selected  
+const selectArr = (array) => {
+  return(array[Math.floor(Math.random()*array.length)]);
+}
 
