@@ -44,10 +44,9 @@ const selectArr = (array) => {
 
 // creation of the message
 const createMessage = () => {
-  const message = "It was " + selectArr(personArr) + " in " + selectArr(locationArr) + " with the " + selectArr(toolArr);
+  const message = "It was " + selectArr(personArr) + " in " + selectArr(locationArr) + " with the " + selectArr(toolArr) + "!";
   return message;
 };
-
 
 const displayMessage = (message) => {
   console.log("Crime generator!");
