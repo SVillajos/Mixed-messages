@@ -19,8 +19,10 @@ The script can be run in a node.js environment.
 
 ## Screenshots
 
+![capture](https://github.com/SVillajos/Mixed-messages/blob/master/image.PNG)
+
 
 ## Status
 
 - [x] JS code (logic).
-- [] CSS functionality.
+- [x] CSS functionality.
