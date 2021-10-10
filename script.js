@@ -42,3 +42,9 @@ const selectArr = (array) => {
   return(array[Math.floor(Math.random()*array.length)]);
 }
 
+// creation of the message
+const createMessage = () => {
+  const message = "It was " + selectArr(personArr) + " in " + selectArr(locationArr) + " with the " + selectArr(toolArr);
+  return message;
+};
+
