@@ -62,3 +62,6 @@ const init = () => {
 
 init();
 
+function demo() {
+  document.getElementById("output").onclick = () => {
+}
