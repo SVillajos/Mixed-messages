@@ -22,5 +22,5 @@ The script can be run in a node.js environment.
 
 ## Status
 
-[x] JS code.
-[] CSS functionality.
+- [x] JS code (logic).
+- [] CSS functionality.
