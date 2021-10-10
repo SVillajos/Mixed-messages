@@ -48,20 +48,15 @@ const createMessage = () => {
   return message;
 };
 
-const displayMessage = (message) => {
-  console.log("Crime generator!");
-  console.log("-----------------------");
-  console.log(message);
-};
-
 // running the program
 const init = () => {
   const message = createMessage();
-  displayMessage(message);
+  console.log(message);
+  return message;
+
 };
 
-init();
-
 function demo() {
-  document.getElementById("output").onclick = () => {
-}
+  document.getElementById("output").innerHTML = init();
+  document.getElementById("feelings").innerHTML = "Search your feelings, you know it to be true...";
+ }

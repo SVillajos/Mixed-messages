@@ -20,7 +20,7 @@ body {
 }
 
 .header2 {
-    padding: 50px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -28,6 +28,14 @@ body {
     text-align: center;
 }
 
-.feelings{
-    display: none;
+.button-container p{
+    padding: 30px;
+}
+
+.button-container button{
+    font-family: "Raleway", serif;
+}
+
+.feelings-container{
+    text-align: center;
 }
