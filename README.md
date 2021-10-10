@@ -6,11 +6,12 @@
 
 * JavaScript
 * Node.js
+* HTML + CSS
 
 ## Features
 
 The program is based on three arrays: person, weapon and room.
-After assigning a random number to each one, it will log a random message to the console with the following structure: "It was ${person} in ${room} with the ${weapon}".
+After assigning a random number to each one, it will log a random message to the console.
 
 ## Setup
 
@@ -21,5 +22,5 @@ The script can be run in a node.js environment.
 
 ## Status
 
-* Working currently in the JS code.
-* Planning to add CSS functionality.
+[x] JS code.
+[] CSS functionality.
